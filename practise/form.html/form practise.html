@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS IN HTML</title>
+    <link rel="stylesheet" href="form practise.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    
+    
+</head>
+<body>
+    <div class="bg-container p-5 m-5 justify-content-center">
+        
+            
+            <input type="input" placeholder="Enter your card number" id="size">
+        
+            <div class="d-flex flex-row justify-content-start p-3 m-2">
+            <div class="d-flex flex-column">
+                <label class="p-1 m-2">Expiry Month:</label>
+                <input type="number" placeholder="MM" id="box">
+            </div>
+                <div class="d-flex flex-column">
+                    <label class="p-1 m-2">Expiry Year:</label>  
+                <input type="number" placeholder="YY" id="box" >
+            </div>
+               <div class="d-flex flex-column">
+                <label class="p-1 m-2">CVV</label>
+                <input type="number" placeholder="Cvv" id="box">
+            </div> 
+        </div>
+        <input type="input" placeholder="Name On The Card" id="size">
+        <br>
+        <input type="checkbox" class="m-2"> Save Details For Fast Payments  <a href="">learn how ?</a>
+        <div class="d-flex flex-row">
+            <button id="button" class="btn btn-danger m-5">CANCEL</button>
+            <button class="btn btn-warning m-5">PAY NOW</button>
+        </div>
+        
+
+
+            
+    
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <h1>HTML FORMS</h1>
+    <br>
+    <form>
+        Enter your first name:
+        <input type="text" name="firstname"/>
+        <br>
+           Enter your last name:
+        <input type="text" name="lastname"/>
+        <br>
+        Enter your email address:
+        <input type="email" name="email"/>
+        <br>
+        Enter your email password: 
+        <input type="password" name="password"/>
+        <br>
+        Enter your age:
+        <input type="number" name="number"/>
+        <br>
+        Enter your description:
+        <textarea placeholder="write here"></textarea>
+        <br>
+        <label for="checkbox">checkbox:</label><br>
+        <input type="checkbox" name="checkbox" value="on"/>cricket
+        <input type="checkbox" name="checkbox" value="on"/>hockey
+        <input type="checkbox" name="checkbox" value="on"/>football
+        <br>
+        <label for="gender">Gender:</label>
+        <input type="radio" name="gender" value="male"/>male 
+        <input type="radio" name="gender" value="female" checked/>female 
+        <br>
+        <p>SELECT LAUNGUAGES:</p>
+        <select name="dropdowm">
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="js">JAVASCRIPT</option>
+            <option value="react">REACT</option></select>
+            <br> 
+        <input type="submit" name="submit"/>
+        <br>
+        upload files:
+        <input type="file" name="fileupload" accept="videos/*"/>
+        <input type="file" name="fileupload" accept="images/*"/>
+        <input type="file" name="fileupload" accept="documents /*"/>
+        <br>
+        <input type="button" name="ok" value="ok"/></form>
+        <br>
+        <form>
+            <fieldset>
+                <legend>DETAILES OF STUDENT:</legend>
+                <p>Firstname:</p>
+                <input type="text" name="text" placeholder="Enter your firstname"/>
+                <br>
+                <p>Lastname:</p>
+                <input type="text" name="text" placeholder="Enter your lastname"/>
+                <br>
+                <p>Age:</p>
+                <input type="number" name="number" placeholder="Enter your age"/>
+                <br>
+                <br>
+                <input type="button" name="button" value="Submit"/>
+                <br>
+            </fieldset>
+        </form>
+<script src="justpractise.js"></script>
+</body>
+</html> 

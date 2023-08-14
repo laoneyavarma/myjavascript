@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+#user-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.user-card {
+    border: 1px solid #a32d2d;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    width: 200px;
+}
+
+.user-card img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.user-card h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.user-card p {
+    margin: 0;
+}

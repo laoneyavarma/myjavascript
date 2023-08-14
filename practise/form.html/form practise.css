@@ -1,0 +1,52 @@
+.bg-container{
+    height:500px;
+    width:500px;
+    background-color: bisque;
+    padding:20px;
+}
+
+.card{
+    height:500px;
+    width:500px;
+    border:2px;
+    padding:10px;
+    background-size: cover;
+}
+#size{
+    height:40px;
+    width:cover;
+    margin:5px;
+    padding:10px;
+    border-radius: 5px;
+    
+}
+#box{
+    height:50px;
+    width:70px;
+    margin:5px;
+    padding:10px;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+/*p{
+    color:darkred;
+    font-size: large;
+}
+*{
+    margin: 20px;
+    padding: 20px;
+    border-radius:10px;
+    border-color: brown;
+    border-width: 2px;
+}
+h1{
+    color:blue;
+    text-decoration-line: underline;
+}
