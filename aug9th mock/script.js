@@ -68,7 +68,42 @@ console.log(Afunc(5,6))
 
 
 
+localStorage.setItem('username', 'lavanya');
+ const username1 = localStorage.getItem('username');
+console.log(username1);
 
 
+
+let btnElement = document.getElementById("button");
+btnElement.textContent="click me";
+
+function clickElement(){
+    btnElement.style.color="red";
+    btnElement.textContent="Thanyou for choosing me";
+}
+
+btnElement.addEventListener("click",clickElement);
+
+ 
+
+function mouseoverElement(){
+    btnElement.style.fontSize="25px";
+}
+btnElement.addEventListener("mouseover",mouseoverElement)
+
+function mouseoutElement(){
+    btnElement.style.backgroundColor="green";
+}
+btnElement.addEventListener("mouseout",mouseoutElement)
+
+function keydownElement(){
+    btnElement.style.color="yellow";
+}
+btnElement.addEventListener("keydown",keydownElement)
+
+function keyupElement(){
+    btnElement.style.color="blue";
+}
+btnElement.addEventListener("keyup",keyupElement)
 
 

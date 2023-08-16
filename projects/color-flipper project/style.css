@@ -1,0 +1,22 @@
+body{
+    font-size: medium;
+    padding: 10px;
+    margin: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+#clr-container{
+    text-align: center;
+    box-shadow: inset;
+    background-color:#fff;
+    border-radius: 5px;
+    /* height: 50vh;
+    width:80vw;
+     */
+}
+#flip-btn{
+    box-sizing: border-box;
+    font-weight: 300;
+    font-size: medium;
+}
