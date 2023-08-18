@@ -1,0 +1,12 @@
+#imagesize{
+    height:50vh;
+    width:50vw;
+ }
+ button{
+    height:5vh;
+    width:10vw;
+    background-color: blueviolet;
+    color:aliceblue;
+    margin:5px;
+    align-items: center;
+ }

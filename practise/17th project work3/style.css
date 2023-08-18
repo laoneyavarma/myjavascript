@@ -1,0 +1,46 @@
+#home{
+    margin:15px;
+    padding:3px;
+    color:rgb(2, 18, 18);
+    background-color: aqua;
+    align-items: center;
+    cursor: pointer;
+}
+#img{
+    margin:15px;
+    padding:3px;
+    color:rgb(2, 18, 18);
+    background-color: aqua;
+    align-items: center;
+    cursor: pointer;
+    
+}
+#city{
+    margin:15px;
+    padding:3px;
+    color:rgb(2, 18, 18);
+    background-color: aqua;
+    align-items: center;
+    cursor: pointer;
+}
+h1{
+    visibility: hidden;
+    
+}
+p1{
+    visibility: hidden;
+}
+h2{
+    visibility: hidden;
+    
+}
+p2{
+    visibility: hidden;
+}
+h3{
+    visibility: hidden;
+    
+}
+p3{
+    visibility: hidden;
+}
